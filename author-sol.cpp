@@ -32,7 +32,7 @@ int main() {
 				}
 				rem_b--;
 			}
-			// check if the score of one team is already greater than the combined score of the other and its remaining turn
+			// check if the score of one team is already greater than the combined score of the other and its remaining turns
 			if ((score_a > score_b + rem_b) || (score_b > score_a + rem_a)) {
 				ans = i + 1;
 				break;
